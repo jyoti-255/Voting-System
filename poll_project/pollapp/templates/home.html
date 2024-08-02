@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Home page</h1>
+{% for d in data %}
+    <h2>{{ d.question }}</h2>
+    <button><a href="{% url 'vote' id=d.id %}">Vote</a></button>
+    <button><a href="{% url 'result' id=d.id %}">View Result</a></button>
+{% endfor %}
+{% endblock %}
