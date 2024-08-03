@@ -9,3 +9,5 @@ The Poll System is a web-based application that allows users to participate in p
 - **Create Polls**: Add a question and multiple options for users to choose from.
 - **User Participation**: Users can select one option and submit their answer.
 - **View Results**: Users can see the results of the poll after they have voted.
+
+  https://smartvote.pythonanywhere.com/
